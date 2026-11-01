@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" class="h-full bg-[#F4F7FB] text-[#0F2942] antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- Primary Title & Search Engine Metatags -->
+    <title>CompressCompare</title>
+    <meta
+      name="description"
+      content="Perceptual quality comparison and forensics tool for social media and web compression artifacts with heat maps, PSNR, SSIM, ΔE2000, and JPEG analysis."
+    />
+    <meta
+      name="keywords"
+      content="image compression comparison, PSNR, SSIM, DeltaE 2000, JPEG forensics, visual media integrity, VMIT, heatmap, RGB histogram, contrast stretch"
+    />
+    <meta name="author" content="VMIT Visual Media Integrity Checker" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- OpenGraph Metatags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CompressCompare" />
+    <meta property="og:title" content="CompressCompare" />
+    <meta
+      property="og:description"
+      content="Perceptual quality comparison and forensics tool for social media and web compression artifacts with heat maps, PSNR, SSIM, ΔE2000, and JPEG analysis."
+    />
+    <meta property="og:image" content="/samples/original.png" />
+
+    <!-- Twitter / X Social Card Metatags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CompressCompare" />
+    <meta
+      name="twitter:description"
+      content="Perceptual quality comparison and forensics tool for social media and web compression artifacts with heat maps, PSNR, SSIM, ΔE2000, and JPEG analysis."
+    />
+    <meta name="twitter:image" content="/samples/original.png" />
+
+    <!-- OS-Specific & PWA Metatags -->
+    <meta name="theme-color" content="#0F2942" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="VMIT" />
+    <meta name="application-name" content="CompressCompare" />
+    <meta name="msapplication-TileColor" content="#0F2942" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Icons & Web App Manifest -->
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "CompressCompare",
+        "alternateName": "VMIT Visual Media Integrity Checker",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "description": "Perceptual quality comparison and forensics tool for social media and web compression artifacts with heat maps, PSNR, SSIM, ΔE2000, and JPEG analysis.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+  </head>
+  <body class="h-full w-full overflow-x-hidden bg-[#F4F7FB] font-sans text-[#0F2942]">
+    <div id="root" class="h-full w-full flex flex-col"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

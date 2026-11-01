@@ -1,0 +1,7 @@
+{
+  "name": "CompressCompare",
+  "description": "Perceptual quality comparison and forensics tool for social media and web compression artifacts with heat maps, PSNR, SSIM, ΔE2000, and JPEG analysis.",
+  "prompt": "Dynamic to React rewrite of CompressCompare",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
